@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: rgb(248, 218, 223);
+}
+.mainheading{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+h1{
+    color: brown;
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    display: inline;
+    margin-right: 5rem;
+}
+.mode{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.mode:hover{
+    background-color: #e6ff01;
+    color: blueviolet;
+}
+.mode:active{
+    background-color: #3e8e41;
+    transform: translateY(2px);
+}
+/* --------------------------------------------------------- */
+.main{
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    background-color: beige;
+}
+
+h3{
+    color: red;
+    font-family: "Roboto Slab", serif;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+h5{
+    color: blue;
+    font-family: "Roboto Slab", serif;
+    margin:8px auto;
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    font-family: "Roboto Slab", serif;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+/* ------------------------------------------------------------- */
+.main-btn{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+h6{
+    color: rgb(59, 59, 247);
+    margin-right: 2rem;
+    display: inline;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#btn-last{
+    margin-top: 2rem;;
+    height: auto;
+    color: brown;
+    width: 7rem;
+    font-weight: bold;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+}
+#btn-last:hover{
+    color: black;
+    background-color: rgb(233, 254, 0);
+    transition: 2sec;
+}
+/* ---------------------------------------------------- */
+/* Media Queries Here! */
+@media (max-width: 568px) {
+    .main{
+        width: 90%;
+    }
+}
+@media (max-width: 700px) {
+    .mainheading{
+        width: 90%;
+        display: block;
+    }
+    #mode{
+        margin-top: 1rem;
+    }
+
+}
+@media (max-width: 900px) {
+    .main{
+        width: 70%;
+    }
+    .mainheading{
+        width: 70%;
+    }
+  }
